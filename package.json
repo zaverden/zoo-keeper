@@ -1,0 +1,15 @@
+{
+  "version": "0.0.1",
+  "repository": "https://github.com/zaverden/zoo-keeper",
+  "author": "zaverden",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "zoo-keeper"
+    ]
+  },
+  "scripts": {
+    "debug": "node --experimental-modules --nolazy --inspect-brk=29229 index.mjs"
+  }
+}

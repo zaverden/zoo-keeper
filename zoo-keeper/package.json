@@ -1,0 +1,16 @@
+{
+  "name": "zoo-keeper",
+  "version": "0.0.1",
+  "description": "Tool to control your monorepo",
+  "bin": {
+    "zoo": "src/index.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "make-promises-safe": "^1.1.0"
+  },
+  "scripts": {
+    "zoo": "node --experimental-modules ./src/index.mjs"
+  }
+}
