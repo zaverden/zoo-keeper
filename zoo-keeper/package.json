@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Tool to control your monorepo",
   "bin": {
-    "zoo": "src/index.js"
+    "zoo": "src/zoo"
   },
   "license": "MIT",
   "dependencies": {
@@ -12,6 +12,6 @@
     "yargs": "^11.0.0"
   },
   "scripts": {
-    "zoo": "node ./src/index.js"
+    "zoo_": "node ./src/zoo"
   }
 }
