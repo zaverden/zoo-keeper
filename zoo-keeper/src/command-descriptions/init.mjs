@@ -1,7 +1,7 @@
-import program from 'commander';
-import { notImplemented } from '../notImplementedCmd';
+import { notImplemented } from '../handlers';
 
-program
-  .command('init')
-  .description('Initialize zoo in a current directory.')
-  .action(notImplemented);
+export default {
+  command: 'init',
+  desc: 'Initialize zoo in a current directory',
+  handler: notImplemented
+}

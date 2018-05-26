@@ -1,7 +1,7 @@
-import program from 'commander';
-import { notImplemented } from '../notImplementedCmd';
+import { notImplemented } from '../handlers';
 
-program
-  .command('exec <cmd>')
-  .description('Executes a provided command in selected zoo pkgs.')
-  .action(notImplemented);
+export default {
+  command: 'exec <cmd>',
+  desc: 'Executes a provided command in selected zoo pkgs',
+  handler: notImplemented
+}

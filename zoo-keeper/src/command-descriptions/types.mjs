@@ -1,21 +1,12 @@
-import program from 'commander';
-import { notImplemented } from '../notImplementedCmd';
+import { empty } from '../handlers';
+import addCmd    from './types-descriptions/add';
+import listCmd     from './types-descriptions/list';
 
-const typesCmd = program
-  .command('types')
-  .description('Manage pkg types in zoo.');
-
-typesCmd
-  .command('help')
-  .description('help')
-  .action(() => console.log(123));
-
-typesCmd
-  .command('list')
-  .description('Lists all pkg types in zoo.')
-  .action(notImplemented);
-
-typesCmd
-  .command('add <pkgType>')
-  .description('Adds new pkg type to zoo.')
-  .action(notImplemented);
+export default {
+  command: 'types <subcommand> [args..]',
+  desc: 'Manage pkg types in zoo',
+  builder: ya => ya
+    .command(addCmd)
+    .command(listCmd),
+  handler: empty
+}

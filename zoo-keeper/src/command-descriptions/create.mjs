@@ -1,7 +1,7 @@
-import program from 'commander';
-import { notImplemented } from '../notImplementedCmd';
+import { notImplemented } from '../handlers';
 
-program
-  .command('create <pkgType>')
-  .description('Creates new pkg in zoo based on pkg type.')
-  .action(notImplemented);
+export default {
+  command: 'create <pkgType>',
+  desc: 'Creates new pkg in zoo based on pkg type',
+  handler: notImplemented
+}
