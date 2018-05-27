@@ -1,5 +1,5 @@
 {
-  "name": "zoo-keeper",
+  "name": "@zoo-keeper/cli",
   "version": "0.0.1",
   "description": "Tool to control your monorepo",
   "bin": {
