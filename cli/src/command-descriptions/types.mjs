@@ -1,10 +1,10 @@
 import { empty } from '../handlers';
 import addCmd    from './types-descriptions/add';
-import listCmd     from './types-descriptions/list';
+import listCmd   from './types-descriptions/list';
 
 export default {
   command: 'types <subcommand> [args..]',
-  desc: 'Manage pkg types in zoo',
+  desc: 'Manage pkg types in zu',
   builder: ya => ya
     .command(addCmd)
     .command(listCmd),

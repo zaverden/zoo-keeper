@@ -1,10 +1,10 @@
-# zoo-keeper
+# Zu
 ## Description
-Yet another tool to manage your yarn-based mono-repository.
+Yet another tool to manage your yarn-workspaces-based mono-repository.
 
 ⚠️Current stage - prototyping. It means that nothing works yet.
 
-`zoo` allows you:
+`zu` allows you:
 
 1. Setup several templates for your packages
 2. Easily add new package from template (some file can be linked instead of coping, useful for shared config files)

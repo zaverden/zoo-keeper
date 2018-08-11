@@ -2,6 +2,9 @@ import { notImplemented } from '../handlers';
 
 export default {
   command: 'init',
-  desc: 'Initialize zoo in a current directory',
+  desc: 'Initialize zu in a current directory',
+  builder: ya => {
+
+  },
   handler: notImplemented
 }

@@ -1,9 +1,9 @@
 {
-  "name": "@zoo-keeper/cli",
+  "name": "@zu/cli",
   "version": "0.0.1",
   "description": "Tool to control your monorepo",
   "bin": {
-    "zoo": "src/zoo"
+    "zu": "src/zu"
   },
   "license": "MIT",
   "dependencies": {
@@ -12,6 +12,6 @@
     "yargs": "^11.0.0"
   },
   "scripts": {
-    "zoo_": "node ./src/zoo"
+    "zu": "node ./src/zu"
   }
 }
