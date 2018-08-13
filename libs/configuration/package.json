@@ -1,0 +1,14 @@
+{
+  "name": "@zu/configuration",
+  "version": "0.0.1",
+  "description": "Configuration for zu",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@zu/core": "0.0.1",
+    "eslint": "^5.3.0"
+  },
+  "scripts": {
+    "eslint": "eslint ./**"
+  }
+}

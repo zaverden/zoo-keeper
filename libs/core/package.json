@@ -1,0 +1,14 @@
+{
+  "name": "@zu/core",
+  "version": "0.0.1",
+  "description": "Zu general classes and functions",
+  "license": "MIT",
+  "main": "./src/_pkg.mjs",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  },
+  "scripts": {
+    "eslint": "eslint ./**"
+  }
+}
